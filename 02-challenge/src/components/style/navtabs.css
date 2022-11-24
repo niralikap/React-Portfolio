@@ -1,0 +1,14 @@
+.nav-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    background-color: rgba(129, 105, 162, 0.806);
+}
+
+h1 {
+    color: rgb(253, 140, 159);
+    font-family: cursive;
+}
+
