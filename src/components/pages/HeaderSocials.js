@@ -26,6 +26,13 @@ const HeaderSocials = () => {
       >
         
       </a>
+      <SocialIcon url="https://twitter.com/Nirali_Kap" target="__blank"/>
+      <a
+        href="https://twitter.com/Nirali_Kap"
+        target="__blank"
+      >
+        
+      </a>
     </div>
   );
 }
