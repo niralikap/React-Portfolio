@@ -53,7 +53,7 @@ In order to run the app, we need to run the following commands:
 
 The app is successfully deployed. The link is:
 
-https://react-portfolio-iekqwzqng-niralikap.vercel.app/#portfolio
+https://react-portfolio-niralikap.vercel.app
 
 
 ## Screenshots
