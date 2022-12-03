@@ -4,6 +4,7 @@ import '../style/allpages.css';
 //import "./HeaderSocials";
 import HeaderSocials from "./HeaderSocials";
 import { SocialIcon } from 'react-social-icons';
+import p22 from "../../assets/fashion-fanatics.jpg"
 import p18 from "../../assets/social-network-api.jpg";
 import p15 from "../../assets/job-search-engine.jpg";
 import p14 from "../../assets/MVC-tech-blog.jpg";
@@ -35,6 +36,31 @@ export default function Portfolio() {
       <section id="portfolio">
       
       <div className="container portfolio__container">
+
+      <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={p22} alt="Fashion Fanatics" class="image" style={mystyle}/>
+          
+          <div className="project-hov">
+          <SocialIcon url="https://github.com/niralikap/Fashion-Fanatics" target="__blank"/>
+          <a
+            href="https://github.com/niralikap/Fashion-Fanatics"
+            target="__blank"
+          >
+          </a>
+          {/* <a
+            href="https://drive.google.com/file/d/1u42TTaUOBEkcAiZ_qyXnH-mNXTnRF7ZF/view?usp=share_link"
+            className="btn btn-light"
+            target="__blank"
+          >
+            Live Demo
+          </a>  */}
+          </div>
+          </div>
+          <h3>Fashion Fanatics</h3>
+          
+          
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={p18} alt="Social Network API" class="image" style={mystyle}/>
