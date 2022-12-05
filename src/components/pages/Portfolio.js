@@ -4,7 +4,8 @@ import '../style/allpages.css';
 //import "./HeaderSocials";
 import HeaderSocials from "./HeaderSocials";
 import { SocialIcon } from 'react-social-icons';
-import p22 from "../../assets/fashion-fanatics.jpg"
+import p21 from "../../assets/book-search-engine.jpg";
+import p22 from "../../assets/fashion-fanatics.jpg";
 import p18 from "../../assets/social-network-api.jpg";
 import p15 from "../../assets/job-search-engine.jpg";
 import p14 from "../../assets/MVC-tech-blog.jpg";
@@ -48,19 +49,45 @@ export default function Portfolio() {
             target="__blank"
           >
           </a>
-          {/* <a
-            href="https://drive.google.com/file/d/1u42TTaUOBEkcAiZ_qyXnH-mNXTnRF7ZF/view?usp=share_link"
+          <a
+            href="https://young-reaches-17728.herokuapp.com/"
             className="btn btn-light"
             target="__blank"
           >
-            Live Demo
-          </a>  */}
+            App Link
+          </a>
           </div>
           </div>
           <h3>Fashion Fanatics</h3>
           
           
         </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={p21} alt="Book Search Engine" class="image" style={mystyle}/>
+          
+          <div className="project-hov">
+          <SocialIcon url="https://github.com/niralikap/Book-Search-Engine-MERN" target="__blank"/>
+          <a
+            href="https://github.com/niralikap/Book-Search-Engine-MERN"
+            target="__blank"
+          >
+          </a>
+          <a
+            href="https://tranquil-headland-49059.herokuapp.com/"
+            className="btn btn-light"
+            target="__blank"
+          >
+            App Link
+          </a>
+          </div>
+          </div>
+          <h3>Book Search Engine - MERN</h3>
+          
+          
+        </article>
+        
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={p18} alt="Social Network API" class="image" style={mystyle}/>
